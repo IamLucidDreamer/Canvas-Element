@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Drawing.css">
+    <script src="Drawing.js" charset="utf-8"></script>
+    <title>Drawing Board</title>
+  </head>
+  <body>
+  <h1> Paint your own Picture </h1>
+    <p>Set width
+      <input type = "text"            onchange="setWidth(this.value)" />
+     Set Height
+      <input type="text" onchange="setHeight(this.value)" />
+    </p>
+    <canvas id="canvas1" onmousedown = "startPaint()" onmousemove = "doPaint(event.offsetX , event.offsetY)">
+    </canvas>
+  </body>
+</html>
