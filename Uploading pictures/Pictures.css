@@ -1,0 +1,18 @@
+canvas{
+  heigth:600px;
+  width:500px;
+border:6px solid red;
+  background-color:white;
+}
+input{
+  font-size:15pt;
+}
+h1 {
+  font-family: arial;
+  color: blue;
+}
+
+body {
+  font-family: arial;
+  margin: 30px;
+}

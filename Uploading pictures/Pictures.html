@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src = http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js >
+    </script>
+    <link rel="stylesheet" href="Pictures.css">
+    <script src="Pictures.js" charset="utf-8"></script>
+    <title>Filter</title>
+  </head>
+  <body>
+
+      <h1>Convert Image to Grayscale :</h1>
+
+      <canvas id="can">
+      </canvas>
+
+      <p>
+        <input type="file" multiple="false" accept="image/*" id="finput" onchange="upload()" >
+      </p>
+      <p>
+        <input type="button" value="Make Grayscale" onclick="makeGray()" >
+      </p>
+  </body>
+</html>
